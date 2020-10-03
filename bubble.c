@@ -18,7 +18,10 @@ for(i=0;i<count-1;i++)
 		}
 	}
 printf("Order of Sorted elements: ");
-for(i=0;i<count;i++) printf(" %d",A[i]);
+for(i=0;i<count;i++)
+{ 
+	printf(" %d",A[i]);
+}
 return 0;
 }
 
